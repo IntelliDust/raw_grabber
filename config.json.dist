@@ -1,0 +1,20 @@
+{
+  "mqtt":{
+    "host": "mqtt.intellidust.eu",
+    "port": 1883,
+    "params": {
+      "clientId": "id",
+      "clean": true,
+      "connectTimeout": 4000,
+      "username": "usser",
+      "password": "password",
+      "reconnectPeriod": 1000
+    }
+  },
+  "mysql":{
+    "host": "mqtt.intellidust.eu",
+    "user"     : "me",
+    "password" : "secret",
+    "database" : "my_db"
+  }
+}
